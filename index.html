@@ -53,7 +53,7 @@
                 
                 
 
-                <div id="unity-container" class="unity-desktop"></div>
+                <div id="unity-container" class="unity-desktop">
                     <canvas id="unity-canvas" width=960 height=600></canvas>
                     <div id="unity-loading-bar">
                       <div id="unity-logo"></div>
@@ -100,12 +100,12 @@
                       updateBannerVisibility();
                     }
               
-                    var buildUrl = "TurtleTakeover/Build";
+                    var buildUrl = "Build";
                     var loaderUrl = buildUrl + "/TurtleTakeoverWeb.loader.js";
                     var config = {
-                      dataUrl: buildUrl + "/TurtleTakeoverWeb.data.br",
-                      frameworkUrl: buildUrl + "/TurtleTakeoverWeb.framework.js.br",
-                      codeUrl: buildUrl + "/TurtleTakeoverWeb.wasm.br",
+                      dataUrl: buildUrl + "/TurtleTakeoverWeb.data",
+                      frameworkUrl: buildUrl + "/TurtleTakeoverWeb.framework.js",
+                      codeUrl: buildUrl + "/TurtleTakeoverWeb.wasm",
                       streamingAssetsUrl: "StreamingAssets",
                       companyName: "DefaultCompany",
                       productName: "Turtle Takeover",
