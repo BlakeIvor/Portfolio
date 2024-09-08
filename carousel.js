@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (currentSlide > 0) {
             currentSlide--;
             updateSlide(currentSlide);
+            
         }
     });
 
