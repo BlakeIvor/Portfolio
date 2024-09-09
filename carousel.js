@@ -35,13 +35,13 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
 
-        // Disable prev/next buttons at start/end
+
         nextBtn.disabled = newSlideIndex === slides.length - 1;
 
-        // Save the current slide index
+
         localStorage.setItem('currentSlide', newSlideIndex);
 
-        // Load the appropriate Unity project
+
         loadUnityProject(newSlideIndex);
     }
 
@@ -59,6 +59,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    // Initialize the carousel
+
     updateSlide(currentSlide);
 });
