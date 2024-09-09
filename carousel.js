@@ -20,7 +20,15 @@ document.addEventListener('DOMContentLoaded', function () {
         const unityContainers = document.querySelectorAll('.unity-container');
         unityContainers.forEach((container, index) => {
             if (index === slideIndex) {
-                container.innerHTML = `<iframe src="${currentProj}/index.html" width="1000" height="700" scrolling="no" frameborder="0"></iframe>`;
+                if(slideIndex === 2){
+                    container.innerHTML = `<iframe width="1000" height="700" src="https://www.youtube.com/embed/sV4KhtOBkUM?si=Iewc0e1x6-MIkTUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+                    <i><a href="https://kyaneos.itch.io/starbound-wanderers"><p>Starbound Wanderers on Itch.io</p></a></i>
+                    
+                    
+                    `;
+                }else{
+                    container.innerHTML = `<iframe src="${currentProj}/index.html" width="1000" height="700" scrolling="no" frameborder="0"></iframe>`;
+                }
             } else {
                 container.innerHTML = '';
             }
