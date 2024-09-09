@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const unityContainers = document.querySelectorAll('.unity-container');
         unityContainers.forEach((container, index) => {
             if (index === slideIndex) {
-                container.innerHTML = `<iframe src="${currentProj}/index.html" width="1000" height="1000" scrolling="no" frameborder="0"></iframe>`;
+                container.innerHTML = `<iframe src="${currentProj}/index.html" width="1000" height="700" scrolling="no" frameborder="0"></iframe>`;
             } else {
                 container.innerHTML = '';
             }
