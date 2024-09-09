@@ -60,7 +60,7 @@ nav ul li a:hover {
 
 h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     font-size: 2rem;
 }
 
@@ -99,32 +99,21 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 25px;
+    list-style:square;
 }
 
-#skills ul li {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-size: 1rem;
-}
+
 
 /* Coursework Section */
-#coursework ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
+#coursework p {
+    text-align: center;
+}
+#coursework h1 {
+    text-align: center;
 }
 
-#coursework ul li {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-size: 1rem;
-}
+
 
 
 /* Contact Section */
