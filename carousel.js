@@ -7,9 +7,9 @@ document.addEventListener('DOMContentLoaded', function () {
     function loadUnityProject(slideIndex) {
         
         let currentProj = 0
-        if(slideIndex === 0){
+        if(slideIndex === 1){
             currentProj = "TurtleTakeover";
-        }else if(slideIndex === 1){
+        }else if(slideIndex === 0){
             currentProj = "Bellicose";
         }else{
             console.log(slideIndex);
